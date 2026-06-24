@@ -1,4 +1,4 @@
-# FAT TONYS HQ
+# MÄNNIKKÖ HOLDING CO
 
 Headquarters för våra företag och AI-agenter.
 
