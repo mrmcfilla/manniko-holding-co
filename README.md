@@ -7,5 +7,22 @@ Headquarters för våra företag och AI-agenter.
 - Café
 - Konsulting
 
-## Syfte
-Ett agent-team som hjälper oss växa och lösa problem.
+## Agenter
+
+| Agent | Status | Områden |
+|-------|--------|---------|
+| Affärsjurist | Aktiv | Affärsjuridik, arbetsrätt, livsmedelsrätt, skatt & moms, hyres- & avtalsrätt, alkohol & servering |
+
+## Struktur
+
+```
+fat-tonnys-hq/
+├── agents/jurist/       ← Agentens instruktioner
+├── data/jurist/         ← Agentens kunskapsbank
+│   ├── affarsjuridik/
+│   ├── arbetsratt/
+│   ├── livsmedelsratt/
+│   ├── skatt-moms/
+│   ├── hyres-avtalsratt/
+│   └── alkohol-servering/
+```
