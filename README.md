@@ -2,10 +2,10 @@
 
 Headquarters för våra företag och AI-agenter.
 
-## Företag
-- Restaurang
-- Café
-- Konsulting
+## Bolag
+- **Männikkö Holding** — moderbolaget
+- **Fat Tonys** — restaurangen
+- **Mange Takk** — caféet
 
 ## Agenter
 
@@ -16,13 +16,23 @@ Headquarters för våra företag och AI-agenter.
 ## Struktur
 
 ```
-fat-tonnys-hq/
-├── agents/jurist/       ← Agentens instruktioner
-├── data/jurist/         ← Agentens kunskapsbank
-│   ├── affarsjuridik/
-│   ├── arbetsratt/
-│   ├── livsmedelsratt/
-│   ├── skatt-moms/
-│   ├── hyres-avtalsratt/
-│   └── alkohol-servering/
+manniko-holding-co/
+├── agents/jurist/          ← Agentens instruktioner
+├── data/
+│   ├── fat-tonys/          ← Restaurangen
+│   │   ├── avtal/
+│   │   ├── personal/
+│   │   ├── tillstand/
+│   │   ├── ekonomi/
+│   │   └── rutiner/
+│   ├── mange-takk/         ← Caféet
+│   │   ├── avtal/
+│   │   ├── personal/
+│   │   ├── tillstand/
+│   │   ├── ekonomi/
+│   │   └── rutiner/
+│   └── manniko-holding/    ← Moderbolaget
+│       ├── avtal/
+│       ├── ekonomi/
+│       └── bolag/
 ```
